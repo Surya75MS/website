@@ -1,0 +1,62 @@
+.back{
+    background-color: black;
+}
+
+.container-md{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-indicators button{
+    margin-top: 2px;
+    color: black;
+}
+
+.row{
+    /* background-color: #a79393;     */
+    /* background-color: #87e9f6; */
+    background-color: #b9b0b0;
+    margin: 2vw;
+    border-radius:40px ;
+    /* padding: 5px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.row h3{
+    text-align: center;
+    /* border: 2px solid blue;     */
+}
+
+.row .Detail{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 77%;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 42px;
+}
+
+hr{
+    margin-bottom: 5px;
+    margin-top: -10px;
+    height:2px;
+    border-width:0;
+    color:black;
+    background-color:black
+}
+
+img{
+    width: 100%;
+    padding: 0.8em;
+}
+
+h6{
+    margin-top: 2px;
+}

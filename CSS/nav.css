@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+/* This is universal selector */
+*{
+    /* This is used to cover the entire screen */
+    margin: 0px;      
+    box-sizing: border-box;
+}
+
+.navigation{    
+    /* height: auto; */
+    /* background-color: gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif; 
+    /* overflow: auto auto; */
+}
+
+.navigation ul{
+    /* background-color:white; */
+    display: flex;     
+}
+
+.navigation ul li{
+    list-style: none;
+    font-size: 2vw;
+    margin: 0em 1em 0em 1em;
+    
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: #ff9191;
+    transition-property: all;
+    transition-duration: 0.25s;
+    /* padding: 5%;       */
+    /* transition-timing-function: ease-in; */
+}
+
+.navigation ul li a:hover{
+    font-weight: bolder;
+    color: rebeccapurple;
+}
+
+.nav-right{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    margin-right: 1%;
+}
+
+.nav-right .search_input{
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    border: 2px ridge gray;
+    /* margin-right: 3%; */  
+}
+
+.nav-right .btn{
+    padding: 3px;
+    border-radius: 16px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in;
+}
+
+.nav-right .btn:hover{
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .navigation ul li{
+        font-size: 4vw;
+    }
+
+    .navigation ul{
+        position: relative;
+        top: 5px;
+        right: 7%;
+    }
+    
+}

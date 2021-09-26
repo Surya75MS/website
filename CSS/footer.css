@@ -1,0 +1,28 @@
+.foot{
+    background-color: rgb(255 246 167);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot p{
+    text-align: center;
+}
+
+.foot ul{
+    /* border: 2px solid red; */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.foot ul li{
+    padding: 0.7%;
+    margin: 1vw;
+}
+
+@media screen and (max-width: 500px) {
+    .foot ul li{
+        padding: 2.5%;
+    }    
+}
